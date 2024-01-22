@@ -28,7 +28,6 @@ class Record:
         self.name = Name(name)
         self.phones = []
 
-    # реалізація класу
     def add_phone(self, phone):
         try:
             new_phone = Phone(phone)
@@ -77,7 +76,6 @@ class AddressBook(UserDict):
 
 # тут додала ту перевірку з LMS
 if __name__ == '__main__':
- # Створення нової адресної книги
     book = AddressBook()
 
     # Створення запису для John
